@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_f7bf9d636efed14a0dc2cb6a71ee937b8cfb6866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_16071ba24dc3368f9b612e878961903e3e8b664a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fdffa0cba1f74b105d8ef4c3345427269434255c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_ca6e87e3a98f5eeecb41c46424b9a4c1a0440b95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_f6c64771f9b24ea9bf954d92ce4a2fc8f3f7f8c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_64689da52549a88ecc70674ddb32c35496d63113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_8ad7c6cffa0eee6a64adbc3a7c57d83b06221c88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_f487f83240e8f33267508d6dec4fa17360c6bac6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_62d153db3c3c6e605f6eee58623b1a8c0fb516ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.0.1_27e49eea8c074779df9a42dd67d0668e3094ff80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_9fc9b13cfb031812c665ff69597bd600067c66fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6fe08a1fdc285bb880a47f93499466b961f4745c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_8e4fd717bc1973fdc9d306292b1c1c15bcd47adc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_792809ff43811e1607f1eb101287ba6cabaf4d75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_afbe3efe767946f459161965e5c1ceda7d5bccca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_2bb8247b97fe4e91e53dc0d9358eaa6ea89d7b39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_b9bf851c5c4c004cfa09c06137e4040029970477.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_b4713abfefa3b5df61fac68b93e1acd44aa90643.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\albert\AndroidStudioProjects\albertmwanjesa-pset6\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_627ce60cbef3daa25fbe0166e228ccf5da4eca33.jar" />
+    </item>
+
+</items>
