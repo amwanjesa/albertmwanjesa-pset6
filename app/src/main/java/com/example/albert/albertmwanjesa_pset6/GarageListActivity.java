@@ -6,13 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity {
+public class GarageListActivity extends AppCompatActivity {
 
     private ArrayList<Garage> garages;
     private GarageArrayAdapter adapter;
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Garage thisGarage = (Garage) lv.getItemAtPosition(position);
                 Toast.makeText(getApplicationContext(), thisGarage.name, Toast.LENGTH_SHORT).show();
-                Intent mapIntent = new Intent(MainActivity.this, GarageMapsActivity.class);
+                Intent mapIntent = new Intent(GarageListActivity.this, GarageMapsActivity.class);
                 mapIntent.putExtra("garage", thisGarage);
                 startActivity(mapIntent);
 

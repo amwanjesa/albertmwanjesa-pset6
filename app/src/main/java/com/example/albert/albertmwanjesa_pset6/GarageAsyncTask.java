@@ -20,10 +20,10 @@ import java.util.Arrays;
 class GarageAsyncTask extends AsyncTask<String, Integer, String> {
 
     Context context;
-    MainActivity activity;
+    GarageListActivity activity;
 
 
-    public GarageAsyncTask(MainActivity activity){
+    public GarageAsyncTask(GarageListActivity activity){
         this.activity = activity;
         this.context = this.activity.getApplicationContext();
     }
