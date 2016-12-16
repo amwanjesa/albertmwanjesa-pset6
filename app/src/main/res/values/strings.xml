@@ -20,6 +20,6 @@
         completions."
     </string>
     <string name="action_register">Register</string>
-    <string name="garage_list_name">Parking Garages in Amsterdam</string>
+    <string name="garage_list_name">Parking Amsterdam</string>
     <string name="filter_hint">Filter by search</string>
 </resources>
