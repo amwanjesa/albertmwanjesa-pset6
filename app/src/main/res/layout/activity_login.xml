@@ -15,12 +15,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/prompt_email"
-        android:
+        android:textColorHint="@color/hintColor"
         android:inputType="textEmailAddress"
         android:maxLines="1" />
 
     <EditText
         android:id="@+id/password"
+        android:textColorHint="@color/hintColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/prompt_password"
@@ -40,15 +41,15 @@
             android:text="@string/action_sign_in"
             android:textStyle="bold"
             android:onClick="startApp"
-            android:background="@android:color/holo_orange_dark"/>
+            android:background="@color/colorAccent"/>
         <Button
             android:id="@+id/email_register_button"
-            android:layout_width="wrap_content"
             style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:onClick="startApp"
-            android:background="@android:color/holo_purple"
+            android:background="@color/colorAccent"
             android:text="@string/action_register"
             android:textStyle="bold"/>
     </RelativeLayout>

@@ -8,7 +8,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by albert on 15/11/2016.
+ * Albert Mwanjesa 6/12/2016
+ * This HttpRequestHelper requests data from the given API.
+ * The data is processed further by the Asynctask.
  */
 public class HttpRequestHelper {
 
@@ -30,14 +32,12 @@ public class HttpRequestHelper {
         HttpURLConnection connection;
         if (url != null) {
             try {
-                // open connection, set request method
+                // Open connection, set request method
                 connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
 
-                // get response code
                 Integer responseCode = connection.getResponseCode();
 
-                // if 200-300, read inputstream
                 if (200 <= responseCode && responseCode <= 299) {
                     BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                     String line;
@@ -52,8 +52,7 @@ public class HttpRequestHelper {
             }catch (java.io.IOException e){
                 e.printStackTrace();
             }
-            // return result
-            Log.d("got eem", result);
+
             return result;
 
         }

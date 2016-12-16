@@ -5,44 +5,47 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Locale;
 
+/**
+* In this activity, the list of parking garages is displayed with an option to filter the list. 
+*
+*/
+
 
 public class GarageListActivity extends AppCompatActivity {
 
-    private ArrayList<Garage> garages;
-    private GarageArrayAdapter adapter;
-    private ListView lv;
-    private EditText filterEditText;
+    private ArrayList<Garage> mGarages;
+    private GarageArrayAdapter mAdapter;
+    private ListView mListView;
+    private EditText mFilterText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        filterByString();
+
+
         GarageAsyncTask garageTask = new GarageAsyncTask(this);
         garageTask.execute(getString(R.string.amsterdamGarageURL));
 
-
-
     }
 
+    // Check for filter string and filter accordingly.
     public void filterByString(){
-        filterEditText = (EditText) findViewById(R.id.filter_string);
-        filterEditText.addTextChangedListener(new TextWatcher() {
+        mFilterText = (EditText) findViewById(R.id.filter_string);
+        mFilterText.addTextChangedListener(new TextWatcher() {
 
             @Override
             public void afterTextChanged(Editable s) {
-                String text = filterEditText.getText().toString().toLowerCase(Locale.getDefault());
-                adapter.filter(text);
+                String text = mFilterText.getText().toString().toLowerCase(Locale.getDefault());
+                mAdapter.filter(text);
             }
 
             @Override
@@ -59,18 +62,17 @@ public class GarageListActivity extends AppCompatActivity {
         });
     }
 
-
+    // Setting the data ad initiating the list view.
     public void setGarages(ArrayList<Garage> foundGarages){
-        garages = foundGarages;
-        adapter = new GarageArrayAdapter(this, garages);
-        lv = (ListView) findViewById(R.id.list_view);
-        lv.setAdapter(adapter);
-        //displayDoneTasks();
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mGarages = foundGarages;
+        mAdapter = new GarageArrayAdapter(this, mGarages);
+        mListView = (ListView) findViewById(R.id.list_view);
+        mListView.setAdapter(mAdapter);
+
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                Garage thisGarage = (Garage) lv.getItemAtPosition(position);
-                Toast.makeText(getApplicationContext(), thisGarage.name, Toast.LENGTH_SHORT).show();
+            public void onItemClick(AdapterView<?> mAdapterView, View view, int position, long id) {
+                Garage thisGarage = (Garage) mListView.getItemAtPosition(position);
                 Intent mapIntent = new Intent(GarageListActivity.this, GarageMapsActivity.class);
                 mapIntent.putExtra("garage", thisGarage);
                 startActivity(mapIntent);
@@ -78,5 +80,7 @@ public class GarageListActivity extends AppCompatActivity {
 
             }
         });
+
+        filterByString();
     }
 }

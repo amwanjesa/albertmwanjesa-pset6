@@ -1,25 +1,26 @@
 <resources>
-    <string name="app_name">Amsterdam Parking</string>
-    <string name="amsterdamGarageURL">http://www.trafficlink-online.nl/trafficlinkdata/wegdata/IDPA_ParkingLocation.GeoJSON</string>
+    <string name="app_name">Parking Amsterdam</string>
     <string name="title_activity_garage_maps">Map</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyCHtKN2vFeMBFeAv-QWqqTWp5LvFe2EhSE
-    </string>
     <string name="title_activity_login">Login to Amsterdam Parking</string>
+    <string name="garage_list_name">Parking Amsterdam</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
     <string name="action_register">Register</string>
-    <string name="garage_list_name">Parking Amsterdam</string>
+
+    <!-- Strings related to getting data -->
+    <string name="amsterdamGarageURL">http://www.trafficlink-online.nl/trafficlinkdata/wegdata/IDPA_ParkingLocation.GeoJSON</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCHtKN2vFeMBFeAv-QWqqTWp5LvFe2EhSE
+    </string>
+
+    <!-- Other strings -->
     <string name="filter_hint">Filter by search</string>
+    <string name="find_parking">Trying to find parking spaces...</string>
+    <string name="not_found_parking">Not spaces found.</string>
+    <string name="failed_login">Authentication failed.</string>
+    <string name="logged_in">Authentication successful.</string>
+    <string name="min_characters">Password has to have at least 6 characters!</string>
 </resources>

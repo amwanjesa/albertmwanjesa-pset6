@@ -13,6 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/**
+* Albert Mwanjesa 15/12/2016
+* This is an custom ArrayAdapter taking in a Garage list.
+* It also has a filter feature. 
+*/
+
 public class GarageArrayAdapter extends ArrayAdapter<Garage> {
     private final Context context;
     private final ArrayList<Garage> values;
@@ -33,21 +39,22 @@ public class GarageArrayAdapter extends ArrayAdapter<Garage> {
         View rowView = inflater.inflate(android.R.layout.simple_list_item_1, parent, false);
         TextView textView = (TextView) rowView.findViewById(android.R.id.text1);
         textView.setText(values.get(position).name);
-        // change the icon for Windows and iPhone
         return rowView;
     }
 
-    public void filter(String charText) {
-        charText = charText.toLowerCase(Locale.getDefault());
+
+    // Filter list items according to the entered serach String
+    public void filter(String searchString) {
+        searchString = searchString.toLowerCase(Locale.getDefault());
         values.clear();
-        if (charText.length() == 0) {
+        if (searchString.length() == 0) {
             values.addAll(allGarages);
         }
         else
         {
             for (Garage garage : allGarages)
             {
-                if (garage.name.toLowerCase(Locale.getDefault()).contains(charText))
+                if (garage.name.toLowerCase(Locale.getDefault()).contains(searchString))
                 {
                     values.add(garage);
                 }
@@ -56,4 +63,3 @@ public class GarageArrayAdapter extends ArrayAdapter<Garage> {
         notifyDataSetChanged();
     }
 }
-
