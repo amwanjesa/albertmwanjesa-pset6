@@ -54,10 +54,19 @@ class GarageAsyncTask extends AsyncTask<String, Integer, String> {
                     JSONObject itsGeometry = thisGarage.getJSONObject("geometry");
                     JSONObject itsProperties = thisGarage.getJSONObject("properties");
                     String[] parts = thisGarage.getString("Id").split(" ", 2);
-                    nextGarage.add(parts[1]);
+                    String[] idParts = parts[0].split("-");
+                    Log.d("idParts", Arrays.toString(idParts));
+                    if(idParts.length > 1 && idParts[1].length() > 1){
+                        String name = parts[1] + " " + idParts[1];
+                        Log.d("pre_name", name);
+                        nextGarage.add(name);
+                    }else{
+                        nextGarage.add(parts[1]);
+                    }
+
                     nextGarage.add(parts[0]);
                     String coords = itsGeometry.get("coordinates").toString();
-                    nextGarage.add(stringToIntArray(coords));
+                    nextGarage.add(stringToFloatArray(coords));
                     nextGarage.add(itsProperties.getInt("ShortCapacity"));
                     nextGarage.add(itsProperties.getInt("LongCapacity"));
                     Garage newGarage = new Garage(nextGarage);
@@ -75,7 +84,7 @@ class GarageAsyncTask extends AsyncTask<String, Integer, String> {
         }
     }
 
-    private float[] stringToIntArray(String coordinates){
+    private float[] stringToFloatArray(String coordinates){
         coordinates = coordinates.replace("[", "");
         coordinates = coordinates.replace("]", "");
         coordinates = coordinates.replace(",", " ");

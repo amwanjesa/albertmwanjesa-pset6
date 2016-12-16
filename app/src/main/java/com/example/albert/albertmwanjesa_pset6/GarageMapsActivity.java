@@ -51,7 +51,7 @@ public class GarageMapsActivity extends FragmentActivity implements OnMapReadyCa
 
         mMap.addMarker(new MarkerOptions()
                 .title(garage.name)
-                .snippet("The capacity of this garage is: "+ Integer.toString(garage.shortCapacity))
+                .snippet("The capacity of this garage is: "+ Integer.toString(garage.shortCapacity + garage.longCapacity))
                 .position(garageLoc));
     };
 
